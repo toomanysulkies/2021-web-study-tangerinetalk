@@ -1,0 +1,31 @@
+@import "reset.css";
+
+@import "../css/variables.css";
+@import "../css/status-bar.css";
+@import "../css/nav-bar.css";
+@import "../css/screen.css";
+@import "../css/login.css";
+@import "../css/friends.css";
+@import "../css/user-component.css";
+@import "../css/badge.css";
+@import "../css/find.css";
+@import "../css/icon-row.css";
+@import "../css/more.css";
+@import "../css/alt-screen-header.css";
+@import "../css/setting.css";
+@import "../css/chat.css";
+@import "../css/no-mobile.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  
+  height: 1000vh;
+  
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+

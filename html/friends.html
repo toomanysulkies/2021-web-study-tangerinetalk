@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Tangerine Talk</title>
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <!-- BEM 방식으로 태그  -->
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>22:45</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle fa-s"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-s"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar" src="../img/cat.jpeg" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Mimi</h4>
+            <h6 class="user-component__subtitle">Show me what you got</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-s"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="../img/gigi.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Gigi
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="../html/friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+
+        <li class="nav__btn">
+          <a class="nav__link" href="../html/chats.html">
+            <span class="nav__notification badge"> 1 </span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+
+        <li class="nav__btn">
+          <a class="nav__link" href="../html/find.html">
+            <i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="../html/more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <div class="bounce-top">
+        <div class="bounce-light">
+          <div class="bounce-sesame"></div>
+          <div class="bounce-sesame"></div>
+          <div class="bounce-sesame"></div>
+        </div>
+      </div>
+      <div class="bounce-stain">
+        <div class="bounce-stain__spot"></div>
+        <div class="bounce-stain__spot"></div>
+        <div class="bounce-stain__spot"></div>
+        <div class="bounce-stain__spot"></div>
+        <div class="bounce-stain__spot"></div>
+      </div>
+    </div>
+
+    <div id="no-mobile">
+     
+      <span>Y<p> &#x1F34A</p>ur screen is t<p> &#x1F34A</p><p> &#x1F34A</p> big t<p> &#x1F34A</p> sh<p> &#x1F34A</p>w my app!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>

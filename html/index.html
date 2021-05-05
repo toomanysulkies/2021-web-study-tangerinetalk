@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Tangerine Talk</title>
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <!-- BEM 방식으로 태그  -->
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>22:45</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Tangerine Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Tangerine Account, <br />log in your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" required />
+      <input type="password" placeholder="Password" required/>
+      <button><a href="../html/friends.html">Log In</a></button>
+  
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+    <div id="no-mobile">
+     
+      <span>Y<p> &#x1F34A</p>ur screen is t<p> &#x1F34A</p><p> &#x1F34A</p> big t<p> &#x1F34A</p> sh<p> &#x1F34A</p>w my app!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script는 body의 바로 위에 위치한다 -->
+  </body>
+</html>
